@@ -1,0 +1,151 @@
+.navbar {
+    align-items: center;
+    background: var(--dark-purple);
+    box-shadow: 0 -0.5rem 0.8rem  var(--darkest);
+    display: flex;
+    font-size: 1rem;
+    font-weight: bold;
+    height: 4rem;
+    justify-content: center;
+    position: sticky;
+    text-transform: lowercase;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar-container {
+    align-items: center;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+}
+
+.navbar-monogram {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.nav-menu {
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(5, auto);
+    justify-content: end;
+    list-style: none;
+    text-align: center;
+    width: 60vw;
+}
+
+.nav-links {
+    align-items: center;
+    color: var(--light-purple);
+    display: flex;
+    height: 100%;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.nav-links:hover {
+    background-color: var(--darkest);
+    color: var(--light-purple);
+    transition: all 0.3s ease;
+}
+
+.fa-bars {
+    color: var(--light-purple);
+}
+
+.nav-item {
+    height: 4rem;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.nav-icon {
+    display: none;
+}
+
+@media screen and (max-width: 960px) {
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: start;
+        opacity: 1;
+        overflow: hidden;
+        position: fixed;
+        right: -35%;
+        top: 4rem;
+        width: 35%;
+    }
+    
+    .nav-icon {
+        display: inline;
+        font-size: 1.2rem;
+        margin-left: 1rem;
+    }
+
+    .nav-menu.active {
+        background: var(--darkest);
+        opacity: 1;
+        overflow: auto;
+        right: 0%;
+        transition: all 0.5s ease;
+        z-index: 1;
+    }
+
+    .nav-links {
+        display: table;
+        padding: 1.5rem;
+        text-align: right;
+        transition: all 0.3s ease;
+        width: 100%;
+    }
+
+    .nav-links:hover {
+        background-color: var(--dark-purple);
+        border-radius: 0;
+        color: var(--light-purple);
+        transition: all 0.3s ease;
+    }
+
+    .navbar-monogram {
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+
+    .menu-icon {
+        display: flex;
+        cursor: pointer;
+        height: 1.8rem;
+        margin-right: 1rem;
+        margin-top: 1rem;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 1.8rem;
+    }
+
+    .fa-xmark {
+        color: var(--light-purple);
+        font-size: 2rem;
+    }
+
+    .fa-bars {
+        color: var(--light-purple);
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nav-icon {
+        display: none;
+    }
+}
