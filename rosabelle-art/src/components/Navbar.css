@@ -1,3 +1,7 @@
+:root{
+    overflow-x: hidden;
+}
+
 .navbar {
     align-items: center;
     background: var(--dark-purple);
