@@ -7,6 +7,9 @@ import Footer from './components/Footer';
 
 // Import pages
 import Home from './pages/Home';
+import Work from './pages/Work';
+import Art from './pages/Art';
+import Hobbies from './pages/Hobbies';
 
 // Boilerplate imports
 import React from 'react';
@@ -45,6 +48,21 @@ function App() {
 					path='/'
 					exact
 					element={<Home />}
+				/>
+				<Route
+					path='/work'
+					exact
+					element={<Work />}
+				/>
+				<Route
+					path='/art'
+					exact
+					element={<Art />}
+				/>
+				<Route
+					path='/hobbies'
+					exact
+					element={<Hobbies />}
 				/>
 			</Routes>
 			<Footer />
