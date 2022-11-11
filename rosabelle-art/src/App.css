@@ -15,7 +15,7 @@
   --transparent: rgba(0, 0, 0, 0);
 
   /* text sizes */
-  --large-text: 2.5rem;
+  --large-text: 2.3vw;
   --medium-text: 1rem;
   --small-medium-text: 0.95rem;
   --small-text: 0.5rem;
@@ -124,5 +124,17 @@ section:nth-child(2n) a:hover {
   .section-header,
   .section-contents {
     max-width: 70%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .section-header {
+    font-size: 3.8vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .section-header {
+    font-size: 5vw;
   }
 }
