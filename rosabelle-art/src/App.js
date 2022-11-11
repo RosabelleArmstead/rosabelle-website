@@ -26,6 +26,8 @@ import { faPalette } from '@fortawesome/free-solid-svg-icons';
 import { faGamepad } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faFileLines } from '@fortawesome/free-regular-svg-icons';
+import { faPepperHot } from '@fortawesome/free-solid-svg-icons';
+import { faDesktop } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
 	fab,
@@ -36,7 +38,9 @@ library.add(
 	faPalette,
 	faGamepad,
 	faEnvelope,
-	faFileLines
+	faFileLines,
+	faPepperHot,
+	faDesktop
 );
 
 function App() {

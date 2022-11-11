@@ -1,0 +1,145 @@
+:root {
+    --tl-icon-text: 1rem;
+    --tl-title-text: 1rem;
+    --tl-desc-text: 0.8rem;
+    --tl-range-text: 0.7rem;
+
+    --tl-line-start-offset: 0rem;
+
+    --mm-pink: #ED3193;
+}
+
+p {
+    line-height: 1.5;
+    font-size: var(--tl-desc-text);
+}
+
+.systems-title,
+.systems {
+    font-size: var(--tl-range-text);
+    line-height: 1.5;
+}
+
+.systems-title {
+    font-weight: bold;
+}
+
+.systems {
+    font-style: italic;
+}
+
+.timeline {
+    letter-spacing: 1px;
+    position: relative;
+    padding-left: 3.25rem;
+    color: var(--lightest);
+}
+
+.timeline:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: var(--tl-line-start-offset);
+    width: 0.4rem;
+    height: 100%;
+    background: var(--darkest);
+}
+
+.timeline .timeline-container {
+    position: relative;
+    margin-bottom: 2.5rem;
+}
+
+.timeline .timeline-container .timeline-icon {
+    position: absolute;
+    left: -4.5rem;
+    width: 3rem;
+    height: 3rem;
+    top: var(--tl-line-start-offset);
+    border-radius: 20%;
+    text-align: center;
+    font-size: 3rem;
+    background: var(--dark-purple);
+}
+
+.timeline .timeline-container .timeline-body {
+    background: var(--darkest);
+    border-radius: 15px;
+    padding: 1rem 1rem 0.75rem;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.504);
+}
+
+.timeline .timeline-container .timeline-body:before {
+    content: '';
+    background: inherit;
+    width: 1rem;
+    height: 1rem;
+    display: block;
+    position: absolute;
+    left: -0.5rem;
+    transform: rotate(45deg);
+    border-radius: 0 0 0 7px;
+}
+
+.timeline .timeline-container .timeline-body .timeline-title {
+    margin-bottom: 1.4rem;
+}
+
+.timeline .timeline-container .timeline-body .timeline-title .badge {
+    background: var(--light-purple);
+    padding: 0.3rem 0.8rem;
+    border-radius: 8px;
+    font-size: var(--tl-title-text);
+    font-weight: bold;
+}
+
+.timeline .timeline-container .timeline-body .timeline-subtitle {
+    font-weight: bold;
+    opacity: 0.5;
+    margin-top: 16px;
+    font-size: var(--tl-range-text);
+}
+
+.timeline .timeline-container.game-systems .badge,
+.timeline .timeline-container.game-systems .timeline-icon {
+    background: var(--mm-pink) !important;
+}
+
+.timeline .timeline-container.junior .badge,
+.timeline .timeline-container.junior .timeline-icon {
+    background: var(--mm-pink) !important;
+}
+
+.timeline .timeline-container.media-officer .badge {
+    background-color: var(--dark-purple) !important;
+}
+
+.timeline .timeline-container.media-officer .timeline-icon {
+    background: #0d0983 !important;
+}
+
+.timeline .timeline-container.nandos .badge {
+    background-color: var(--dark-purple) !important;
+}
+
+.timeline .timeline-container.nandos .timeline-icon {
+    background-color: #000 !important;
+    color: #FF0000 !important;
+}
+
+.timeline .timeline-container.intern .badge,
+.timeline .timeline-container.intern .timeline-icon {
+    background: var(--mm-pink) !important;
+}
+
+.timeline .timeline-container.work-experience .badge,
+.timeline .timeline-container.work-experience .timeline-icon {
+    background: var(--mm-pink) !important;
+}
+
+.fa-desktop,
+.fa-pepper-hot,
+.fa-playstation {
+    margin-top: 0.6rem;
+    font-size: 1.6rem;
+}
