@@ -66,23 +66,6 @@ function Timeline() {
 							the month 3 times during my 9 months working there."
 				dateRange='2017-2018'
 			/>
-			<TimelineEvent
-				className='timeline-container work-experience'
-				iconPrefix='fab'
-				icon='playstation'
-				title='Work Experience Programmer | Dreams'
-				description='3 weeks of unpaid work experience. In my first week at Media Molecule other 
-							students and I worked together to develop a two-player version of the classic 
-							game of "Snake" and a twist on the popular app, "Flappy Bird". From this 
-							experience I learned how to work quickly under pressure and in a team to have a 
-							completed project in a short period of time. In my second week, I developed a more 
-							complex revision resource system independently, learning how to rely on my own 
-							resources to solve problems and complete the task I had been set. My third week 
-							involved working directly on a graphical element of the current project of the 
-							company, adapting to and learning C++ (which I had never used before) and working 
-							with my supervisor to complete the set tasks.'
-				dateRange='2015-2017'
-			/>
 		</div>
 	);
 }
