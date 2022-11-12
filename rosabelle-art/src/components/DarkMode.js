@@ -8,9 +8,9 @@ function DarkMode() {
 			window.matchMedia &&
 			window.matchMedia('(prefers-colour-scheme: light').matches
 		) {
-			return 'dark';
-		} else {
 			return 'light';
+		} else {
+			return 'dark';
 		}
 	});
 
@@ -37,7 +37,7 @@ function DarkMode() {
 			}
 		});
 
-	if (mode && mode === 'dark') {
+	if (mode && mode === 'light') {
 		changeToLight();
 	} else {
 		changeToDark();
@@ -46,21 +46,21 @@ function DarkMode() {
 	return (
 		<DarkModeToggle
 			mode={mode}
-			dark='light'
-			light='dark'
+			dark='dark'
+			light='light'
 			size='sm'
-			inactiveLabelColor='#F2E7D5'
-			inactiveLabelColorOnHover='#393E46'
-			inactiveTrackColor='#F2E7D5'
-			inactiveTrackColorOnHover='#F2E7D5'
-			inactiveTrackColorOnActive='#6D9886'
-			activeLabelColor='#cfb48d'
-			activeLabelColorOnHover='#191c22'
-			activeTrackColor='#cfb48d'
-			activeTrackColorOnHover='#cfb48d'
-			activeTrackColorOnActive='#cfb48d'
-			inactiveThumbColor='#6D9886'
-			activeThumbColor='#25342e'
+			inactiveLabelColor='#cfb48d'
+			inactiveLabelColorOnHover='#191c22'
+			inactiveTrackColor='#cfb48d'
+			inactiveTrackColorOnHover='#cfb48d'
+			inactiveTrackColorOnActive='#cfb48d'
+			activeLabelColor='#F2E7D5'
+			activeLabelColorOnHover='#393E46'
+			activeTrackColor='#F2E7D5'
+			activeTrackColorOnHover='#F2E7D5'
+			activeTrackColorOnActive='#6D9886'
+			inactiveThumbColor='#25342e'
+			activeThumbColor='#6D9886'
 			onChange={(mode) => {
 				setMode(mode);
 			}}
