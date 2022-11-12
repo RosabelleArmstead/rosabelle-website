@@ -1,12 +1,20 @@
 import React from 'react';
 import '../App.css';
+import './Home.css';
 
 function Home() {
 	return (
 		<div className='page-container'>
 			<section>
 				<div className='section-container'>
-					<h2 className='section-header'>hi.</h2>
+					<div className='section-item profile-image-container'>
+						<img
+							className='profile-image'
+							src='images/rosabelle.jpg'
+							alt='Rosabelle Armstead hugging a donut pillow.'
+						/>
+					</div>
+					<h2 className='section-header'>hi</h2>
 					<div className='section-contents'>
 						<div className='section-item'>
 							I'm Rosabelle! I'm primarily a UI/UX Programmer (who
