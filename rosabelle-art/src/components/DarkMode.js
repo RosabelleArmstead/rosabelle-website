@@ -2,18 +2,45 @@ import { useState } from 'react';
 import { DarkModeToggle } from '@anatoliygatt/dark-mode-toggle';
 
 function DarkMode() {
-	const [mode, setMode] = useState('dark');
+	const [mode, setMode] = useState(() => {
+		// use device default
+		if (
+			window.matchMedia &&
+			window.matchMedia('(prefers-colour-scheme: light').matches
+		) {
+			return 'dark';
+		} else {
+			return 'light';
+		}
+	});
 
 	var bodyClassList = document.body.classList;
-
-	if (mode == 'light') {
+	const changeToDark = () => {
 		if (!bodyClassList.contains('darkmode')) {
 			bodyClassList.add('darkmode');
 		}
-	} else {
+	};
+
+	const changeToLight = () => {
 		if (bodyClassList.contains('darkmode')) {
 			bodyClassList.remove('darkmode');
 		}
+	};
+
+	window
+		.matchMedia('(prefers-color-scheme: dark')
+		.addEventListener('change', (e) => {
+			if (e.matches) {
+				changeToDark();
+			} else {
+				changeToLight();
+			}
+		});
+
+	if (mode && mode == 'dark') {
+		changeToLight();
+	} else {
+		changeToDark();
 	}
 
 	return (
