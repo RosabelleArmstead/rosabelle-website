@@ -2,6 +2,7 @@ import './Footer.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import pdf from '../documents/CV.pdf';
 
 function Footer() {
 	return (
@@ -44,13 +45,13 @@ function Footer() {
 						>
 							<FontAwesomeIcon icon={['fab', 'github']} />
 						</a>
-						<Link
+						<a
 							className='social-icon-link resume'
-							to='/'
+							href={pdf}
 							aria-label='CV'
 						>
 							<FontAwesomeIcon icon={['far', 'file-lines']} />
-						</Link>
+						</a>
 					</div>
 				</div>
 			</div>
