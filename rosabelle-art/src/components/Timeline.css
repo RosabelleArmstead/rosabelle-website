@@ -6,7 +6,8 @@
 
     --tl-line-start-offset: 0rem;
 
-    --mm-pink: #ED3193;
+    /* --mm-pink: #ED3193; */
+    --mm-pink: #ef8abe;
 }
 
 p {
@@ -35,6 +36,13 @@ p {
     color: var(--lightest);
 }
 
+body.darkmode .timeline {
+    letter-spacing: 1px;
+    position: relative;
+    padding-left: 3.25rem;
+    color: var(--darkmode-lightest);
+}
+
 .timeline:before {
     content: '';
     position: absolute;
@@ -42,7 +50,19 @@ p {
     top: var(--tl-line-start-offset);
     width: 0.4rem;
     height: 100%;
-    background: var(--darkest);
+    background: var(--dark);
+    border-radius: 1rem;
+}
+
+body.darkmode .timeline:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: var(--tl-line-start-offset);
+    width: 0.4rem;
+    height: 100%;
+    background: var(--darkmode-dark);
+    border-radius: 1rem;
 }
 
 .timeline .timeline-container {
@@ -59,7 +79,32 @@ p {
     border-radius: 20%;
     text-align: center;
     font-size: 3rem;
-    background: var(--dark-purple);
+    color: var(--lightest);
+}
+
+body.darkmode .timeline .timeline-container .timeline-icon {
+    position: absolute;
+    left: -4.5rem;
+    width: 3rem;
+    height: 3rem;
+    top: var(--tl-line-start-offset);
+    border-radius: 20%;
+    text-align: center;
+    font-size: 3rem;
+    background: var(--darkmode-dark);
+    color: var(--darkmode-darkest);
+}
+
+.timeline .timeline-icon.mm img {
+    top: inherit;
+    border-radius: inherit;
+    background: var(--lightest);
+}
+
+body.darkmode .timeline .timeline-icon.mm img {
+    top: inherit;
+    border-radius: inherit;
+    background: var(--darkmode-darkest);
 }
 
 .timeline .timeline-container .timeline-body {
@@ -82,11 +127,11 @@ p {
 }
 
 .timeline .timeline-container .timeline-body .timeline-title {
+    color: var(--darkest);
     margin-bottom: 1.4rem;
 }
 
 .timeline .timeline-container .timeline-body .timeline-title .badge {
-    background: var(--light-purple);
     padding: 0.3rem 0.8rem;
     border-radius: 8px;
     font-size: var(--tl-title-text);
@@ -100,40 +145,22 @@ p {
     font-size: var(--tl-range-text);
 }
 
-.timeline .timeline-container.game-systems .badge,
-.timeline .timeline-container.game-systems .timeline-icon {
-    background: var(--mm-pink) !important;
-}
-
-.timeline .timeline-container.junior .badge,
-.timeline .timeline-container.junior .timeline-icon {
-    background: var(--mm-pink) !important;
-}
-
-.timeline .timeline-container.media-officer .badge {
-    background-color: var(--dark-purple) !important;
-}
-
+.timeline .timeline-container.media-officer .badge,
 .timeline .timeline-container.media-officer .timeline-icon {
-    background: #0d0983 !important;
+    background: #6b8ee1 !important;
 }
 
-.timeline .timeline-container.nandos .badge {
-    background-color: var(--dark-purple) !important;
-}
-
+.timeline .timeline-container.nandos .badge,
 .timeline .timeline-container.nandos .timeline-icon {
-    background-color: #000 !important;
-    color: #FF0000 !important;
+    background-color: rgb(238, 121, 121) !important;
 }
 
-.timeline .timeline-container.intern .badge,
-.timeline .timeline-container.intern .timeline-icon {
-    background: var(--mm-pink) !important;
-}
-
-.timeline .timeline-container.work-experience .badge,
-.timeline .timeline-container.work-experience .timeline-icon {
+.timeline .timeline-container.game-systems .timeline-icon,
+.timeline .timeline-container.game-systems .badge,
+.timeline .timeline-container.junior .timeline-icon,
+.timeline .timeline-container.junior .badge,
+.timeline .timeline-container.intern .timeline-icon,
+.timeline .timeline-container.intern .badge {
     background: var(--mm-pink) !important;
 }
 

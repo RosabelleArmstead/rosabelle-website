@@ -5,20 +5,54 @@
   font-size: 20px;
   margin: 0;
   padding: 0;
+}
 
-  /* colour palette */
-  --lightest: #FFFFFF;
-  --light-purple: #F2DDFF;
+html {
+  /* purples colour palette */
+  /* --lightest: #FFFFFF;
+  --light: #F2DDFF;
   --mid-purple: #AE78CF;
-  --dark-purple: #6b368b;
+  --dark: #6b368b;
   --darkest: #210035;
-  --transparent: rgba(0, 0, 0, 0);
+  --transparent: rgba(0, 0, 0, 0); */
 
+  /* blues colour palette */
+  /* --lightest: #F5EFE6;
+  --light: #E8DFCA;
+  --mid-purple: #E8DFCA;
+  --dark: #AEBDCA;
+  --darkest: #7895B2;
+  --transparent: rgba(0, 0, 0, 0); */
+
+  /* green/black/beige colour palette */
+    --lightest: #F7F7F7;
+    --light: #F2E7D5;
+    --dark: #6D9886;
+    --darkest: #393E46;
+    --transparent: rgba(0, 0, 0, 0);
+
+    --darkmode-lightest: #d3bdb0;
+    --darkmode-light: #cfb48d;
+    --darkmode-dark: #25342e;
+    --darkmode-darkest: #191c22;
+
+  /* bluegreen/grey colour palette */
+  /* --lightest: #FEFBF3;
+  --light: #FEFBF3;
+  --mid-purple: #F8F0DF;
+  --dark: #79B4B7;
+  --darkest: #9D9D9D;
+  --transparent: rgba(0, 0, 0, 0); */
+  
   /* text sizes */
   --large-text: 2.3vw;
   --medium-text: 1rem;
   --small-medium-text: 0.95rem;
   --small-text: 0.5rem;
+}
+
+body.darkmode {
+  background-color: var(--darkmode-darkest);
 }
 
 .page-container {
@@ -65,27 +99,21 @@ section b {
   text-align: justify;
 }
 
-section:nth-child(2n) a {
-  background:
-      linear-gradient(to right, var(--transparent), var(--transparent)),
-      linear-gradient(to right, var(--darkest), var(--darkest));
-  background-size: 100% 0.1rem, 0 0.1rem;
-  background-position: 100% 100%, 50% 100%;
-  background-repeat: no-repeat;
-  font-weight: bold;
-  text-decoration: none;
-  transition: background-size 250ms;
+section, section:first-child {
+  background: var(--dark);
+  color: var(--lightest);
 }
 
-section, section:first-child {
-  background: var(--dark-purple);
-  color: var(--lightest);
+body.darkmode section,
+body.darkmode section:first-child {
+  background: var(--darkmode-dark) !important;
+  color: var(--darkmode-lightest) !important;
 }
 
 section a, section:first-child a {
   background:
     linear-gradient(to right, var(--transparent), var(--transparent)),
-    linear-gradient(to right, var(--lightest), var(--lightest));
+    linear-gradient(to right, var(--light), var(--light));
   background-position: 100% 100%, 50% 100%;
   background-repeat: no-repeat;
   background-size: 100% 0.1rem, 0 0.1rem;
@@ -95,9 +123,53 @@ section a, section:first-child a {
   transition: background-size 250ms;
 }
 
+body.darkmode section a,
+body.darkmode section:first-child a {
+  background:
+    linear-gradient(to right, var(--transparent), var(--transparent)),
+    linear-gradient(to right, var(--darkmode-light), var(--darkmode-light)) !important;
+  color: var(--darkmode-lightest) !important;
+  background-position: 100% 100%, 50% 100% !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% 0.1rem, 0 0.1rem !important;
+  font-weight: bold !important;
+  text-decoration: none;
+  transition: background-size 250ms !important;
+}
+
+section:nth-child(2n) a {
+  background:
+    linear-gradient(to right, var(--transparent), var(--transparent)),
+    linear-gradient(to right, var(--dark), var(--dark));
+  background-size: 100% 0.1rem, 0 0.1rem;
+  background-position: 100% 100%, 50% 100%;
+  background-repeat: no-repeat;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-size 250ms;
+}
+
+body.darkmode section:nth-child(2n) a {
+  background:
+    linear-gradient(to right, var(--transparent), var(--transparent)),
+    linear-gradient(to right, var(--darkmode-lightest), var(--darkmode-lightest)) !important;
+  background-size: 100% 0.1rem, 0 0.1rem !important;
+  background-position: 100% 100%, 50% 100% !important;
+  background-repeat: no-repeat !important;
+  font-weight: bold !important;
+  text-decoration: none !important;
+  transition: background-size 250ms !important;
+}
+
 section a:hover, section:first-child a:hover {
   background-size: 0 0.1em, 100% 0.1em;
-  color: var(--lightest);
+  color: var(--light);
+}
+
+body.darkmode section a:hover,
+body.darkmode section:first-child a:hover {
+  color: var(--darkmode-light) !important;
+  background-size: 0 0.1em, 100% 0.1em !important;
 }
 
 section:nth-child(2n) {
@@ -105,12 +177,25 @@ section:nth-child(2n) {
   color: var(--darkest);
 }
 
+body.darkmode section:nth-child(2n) {
+  background: var(--darkmode-darkest) !important;
+  color: var(--darkmode-light) !important;
+}
+
 section:nth-child(2n) a {
   color: var(--darkest);
 }
 
+body.darkmode section:nth-child(2n) a {
+  color: var(--darkmode-light) !important;
+}
+
 section:nth-child(2n) a:hover {
-  color: var(--darkest);
+  color: var(--dark);
+}
+
+body.darkmode section:nth-child(2n) a:hover {
+  color: var(--darkmode-lightest) !important;
 }
 
 @media screen and (max-width: 1400px) {

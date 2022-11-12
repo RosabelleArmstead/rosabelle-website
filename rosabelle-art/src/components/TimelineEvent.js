@@ -4,6 +4,7 @@ import './Timeline.css';
 
 function TimelineEvent(props) {
 	const hasSystems = props.hasSystems;
+
 	if (hasSystems) {
 		return (
 			<div className={props.className}>
