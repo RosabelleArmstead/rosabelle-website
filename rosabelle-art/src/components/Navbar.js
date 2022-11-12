@@ -5,7 +5,7 @@ import DarkMode from './DarkMode';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 function Navbar() {
 	const [click, setClick] = useState(false);
@@ -30,7 +30,10 @@ function Navbar() {
 							className='navbar-monogram'
 							onClick={closeSidebar}
 						>
-							<img src={Monogram} />
+							<img
+								src={Monogram}
+								alt="a monogram showing a combination of the letters 'R' and 'A', Rosabelle's initials"
+							/>
 						</Link>
 					</div>
 

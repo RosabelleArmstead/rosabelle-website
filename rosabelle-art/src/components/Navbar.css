@@ -117,7 +117,7 @@ body.darkmode .navbar .fa-bars {
         display: flex;
         flex-direction: column;
         height: 100vh;
-        justify-content: start;
+        justify-content: flex-start;
         opacity: 1;
         overflow: hidden;
         position: fixed;

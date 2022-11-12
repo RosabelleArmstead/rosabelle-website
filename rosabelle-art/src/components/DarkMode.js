@@ -37,7 +37,7 @@ function DarkMode() {
 			}
 		});
 
-	if (mode && mode == 'dark') {
+	if (mode && mode === 'dark') {
 		changeToLight();
 	} else {
 		changeToDark();

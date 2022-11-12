@@ -6,7 +6,10 @@ function TimelineEventMm(props) {
 	return (
 		<div className={props.className}>
 			<div className='timeline-icon mm'>
-				<img src={Logo} />
+				<img
+					src={Logo}
+					alt='Media Molecule logo'
+				/>
 			</div>
 			<div className='timeline-body'>
 				<h4 className='timeline-title'>
