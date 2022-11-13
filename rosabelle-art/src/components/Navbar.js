@@ -93,7 +93,7 @@ function Navbar() {
 									/>
 								</Link>
 							</li>
-							<li className='nav-item'>
+							{/* <li className='nav-item'>
 								<Link
 									to='/hobbies'
 									className='nav-links'
@@ -106,7 +106,7 @@ function Navbar() {
 										fixedWidth
 									/>
 								</Link>
-							</li>
+							</li> */}
 						</ul>
 					</div>
 				</div>
