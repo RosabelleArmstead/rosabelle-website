@@ -92,6 +92,7 @@ body.darkmode {
 
 .section-header, .section-contents {
   display: flex;
+  flex-direction: column;
   max-width: 35%;
 }
 
