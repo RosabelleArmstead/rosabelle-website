@@ -13,7 +13,7 @@ import Hobbies from './pages/Hobbies';
 
 // Boilerplate imports
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 // Import icons
 import { library } from '@fortawesome/fontawesome-svg-core';
