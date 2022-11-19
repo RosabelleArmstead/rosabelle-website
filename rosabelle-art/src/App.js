@@ -4,6 +4,7 @@ import './App.css';
 // Import components
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 
 // Import pages
 import Home from './pages/Home';
@@ -46,6 +47,7 @@ library.add(
 function App() {
 	return (
 		<Router>
+			<ScrollToTop />
 			<Navbar />
 			<Routes>
 				<Route
