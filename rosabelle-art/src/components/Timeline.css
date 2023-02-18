@@ -170,3 +170,13 @@ body.darkmode .timeline .timeline-icon.mm img {
     margin-top: 0.6rem;
     font-size: 1.6rem;
 }
+
+.portfolio-image-container {
+    max-width: 100%;
+    margin-top: 1rem;
+}
+
+.portfolio-image {
+    border-radius: 15px;
+    max-width: 100%;
+}

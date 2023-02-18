@@ -1,5 +1,6 @@
 import React from 'react';
 import Logo from '../logo.svg';
+import PortfolioImages from './PortfolioImages';
 import './Timeline.css';
 
 function TimelineEventMm(props) {
@@ -23,6 +24,9 @@ function TimelineEventMm(props) {
 					<span className='systems'>{props.systems}</span>
 				</p>
 				<p className='timeline-subtitle'>{props.dateRange}</p>
+				{props.hasImages == 'true' && (
+					<PortfolioImages images={props.images} />
+				)}
 			</div>
 		</div>
 	);

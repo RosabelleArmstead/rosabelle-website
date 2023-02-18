@@ -28,6 +28,13 @@ function Timeline() {
 							delivery.'
 				systems='Imp Quests & Imp Quest UI, Trophies, Player Identity, Onboarding Flow'
 				dateRange='2019-2021'
+				hasImages='true'
+				images={[
+					'dreams/controls_reminder.gif',
+					'dreams/tiered_quest.gif',
+					'dreams/one_shot_quest.jpg',
+					'dreams/creative_quest.gif',
+				]}
 			/>
 			<TimelineEvent
 				className='timeline-container media-officer'
@@ -46,6 +53,14 @@ function Timeline() {
 							features in Dreamiverse Menus and Create UI, including some work in shader code.'
 				systems='Tooltips & Button Prompts, Imp Quests & Imp Quest UI, Main Menu UI'
 				dateRange='2018-2019'
+				hasImages='true'
+				images={[
+					'dreams/main_menu.gif',
+					'dreams/profile_page.jpg',
+					'dreams/imp_quests.jpg',
+					'dreams/button_prompts_and_tooltips.gif',
+					'dreams/more_info.gif',
+				]}
 			/>
 			<TimelineEvent
 				className='timeline-container nandos'
