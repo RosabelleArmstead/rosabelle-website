@@ -17,32 +17,41 @@ function Home() {
 					<h2 className='section-header'>hi</h2>
 					<div className='section-contents'>
 						<div className='section-item'>
-							I'm Rosabelle! I'm primarily a UI/UX Programmer (who
-							has dabbled in a few other areas of code) with a
-							Computer Science degree and over 4 years of
-							experience in the industry. I'm currently a
-							Programmer on the Game Systems team at{' '}
+							I'm Rosabelle! I'm an Associate Technical Producer
+							with over 5 years of industry experience in
+							technical production and game systems programming.
+							<br />
+							<br />
+							I'm currently an Associate Technical Producer,
+							producing a mix of single-disciplinary and
+							cross-disciplinary Game Tech teams (Game Graphics,
+							UI/UX, Game Tools) at{' '}
 							<a href='https://mediamolecule.com'>
 								Media Molecule
 							</a>
 							.
 							<br />
-							<br />I also have a keen interest in game
-							accessibility and I am actively seeking out
-							opportunities to expand my knowledge and advocating
-							for accessibility in my day-to-day work. I do what I
-							can to embed accessibility as a{' '}
-							<b>frontline consideration</b> throughout the
-							studio, with the hope that we can push the boat out
-							and come up with innovative and inherently
-							accessible features for the UGC space for both
-							creators and players.
+							<br />
+							My particular interests are creative and innovative
+							solutions in technology, frictionless user
+							experiences and accessibility. I am actively seeking
+							out opportunities to expand my knowledge and
+							advocating for accessibility in my day-to-day work.
+							I work closely with the rest of the{' '}
+							<a href='https://x.com/mediamolecule/status/1659233464657272833?s=20'>
+								Mm Accessibility Champions
+							</a>{' '}
+							to do what we can to embed accessibility as a
+							frontline consideration throughout the studio, with
+							the hope that we can fly the flag for a baseline
+							expectation of knowledge and advocacy for our
+							Molecules.
 							<br />
 							<br />
 							This website has a little bit of everything about me
 							- my work, my art and my hobbies. If you have any
 							questions or want to contact me, you can find all
-							the details at the bottom of the page!
+							the details at the bottom of the page.
 						</div>
 					</div>
 				</div>
@@ -55,15 +64,19 @@ function Home() {
 
 					<div className='section-contents'>
 						<div className='section-item'>
-							I have completed a BSc degree in{' '}
+							I am a{' '}
+							<a href='https://www.surrey.ac.uk/'>
+								University of Surrey
+							</a>{' '}
+							graduate with a BSc in{' '}
 							<a href='https://www.surrey.ac.uk/undergraduate/computer-science'>
 								Computer Science
 							</a>{' '}
-							covering a wide range of computer science topics,
-							including object-oriented programming, web
-							development, artificial intelligence, software
-							development and the systems lifecycle, and a range
-							of information and computer security modules.
+							covering a wide range of topics, including
+							object-oriented programming, web development,
+							artificial intelligence, software development and
+							the systems lifecycle, and a range of information
+							and computer security modules.
 							<br />
 							<br />
 							As part of my degree, I undertook an industrial

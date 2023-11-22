@@ -155,6 +155,10 @@ body.darkmode .timeline .timeline-icon.mm img {
     background-color: rgb(238, 121, 121) !important;
 }
 
+.timeline .timeline-container.tech-prod .timeline-icon,
+.timeline .timeline-container.tech-prod .badge,
+.timeline .timeline-container.accessibility-champs .timeline-icon,
+.timeline .timeline-container.accessibility-champs .badge,
 .timeline .timeline-container.game-systems .timeline-icon,
 .timeline .timeline-container.game-systems .badge,
 .timeline .timeline-container.junior .timeline-icon,

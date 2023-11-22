@@ -20,13 +20,26 @@ function TimelineEventMm(props) {
 					{props.description}
 					<br />
 					<br />
-					<span className='systems-title'>Systems owned: </span>
-					<span className='systems'>{props.systems}</span>
+					{props.systems && (
+						<>
+							<span className='systems-title'>
+								Systems owned:{' '}
+							</span>
+							<span className='systems'>{props.systems}</span>
+						</>
+					)}
+
+					{props.teams && (
+						<>
+							<span className='systems-title'>
+								Teams produced:{' '}
+							</span>
+							<span className='systems'>{props.teams}</span>
+						</>
+					)}
 				</p>
 				<p className='timeline-subtitle'>{props.dateRange}</p>
-				{props.hasImages == 'true' && (
-					<PortfolioImages images={props.images} />
-				)}
+				{props.images && <PortfolioImages images={props.images} />}
 			</div>
 		</div>
 	);

@@ -7,16 +7,45 @@ function Timeline() {
 	return (
 		<div className='timeline'>
 			<TimelineEventMm
+				className='timeline-container tech-prod'
+				title='Associate Technical Producer | New Project (NDA)'
+				description='Sprint and milestone planning, execution and review for several 
+							multi-disciplinary teams to help align milestone work to creative vision 
+							during concept development. Collaborate with Leadership Team to prioritise, 
+							scope and schedule milestone work to meet critical deadlines during concept 
+							development. Build a comprehensive backlog for Game Tech teams and 
+							facilitate regular backlog grooming with team members.'
+				dateRange='Oct 2022-Present'
+				teams='Game Graphics, UI/UX, Game Tools'
+			/>
+			<TimelineEventMm
+				className='timeline-container accessibility-champs'
+				title='Accessibility Champions Co-Founder | Media Molecule'
+				description='Liaise with Leadership Team to embed accessibility in internal processes.
+							Facilitate cross-team and cross-studio collaboration. Organise studio-wide 
+							accessibility awareness and training days. Arrange materials, agendas and 
+							follow-up from meetings. Deliver regular presentations to provide updates 
+							for accessibility priorities.'
+				dateRange='Mar 2022-Present'
+				images={['dreams/accessibility_champs.jpg']}
+			/>
+			<TimelineEventMm
 				className='timeline-container game-systems'
 				title='Game Systems Programmer | Dreams'
 				description='Working on the Game Systems team has involved high levels of collaborative
 							effort with server and design teams on various design changes and changes 
 							to the client-to-server communication layer. It has also involved some R&D 
-							work on a range of player-to-player and player identity related systems, 
+							work on a range of player-to-player and player identity related systems, and 
+							laying the technical foundations for UI systems for our upcoming project,
 							though these are currently under NDA.'
 				systems='Creation Publishing System, Player Identity, UI SFX Interface, Help & How-To, 
-						Imp Quests & Imp Quest UI'
-				dateRange='2021-Present'
+						Imp Quests & Imp Quest UI, New Project UI R&D'
+				dateRange='Jun 2021-Oct 2022'
+				images={[
+					'dreams/DCUT.gif',
+					'dreams/local_limits.jpg',
+					'dreams/online_limits.jpg',
+				]}
 			/>
 			<TimelineEventMm
 				className='timeline-container junior'
@@ -27,8 +56,7 @@ function Timeline() {
 							per system implemented for rapid collaboration from prototyping to iteration to 
 							delivery.'
 				systems='Imp Quests & Imp Quest UI, Trophies, Player Identity, Onboarding Flow'
-				dateRange='2019-2021'
-				hasImages='true'
+				dateRange='Jun 2019-Jun 2021'
 				images={[
 					'dreams/controls_reminder.gif',
 					'dreams/tiered_quest.gif',
@@ -36,24 +64,13 @@ function Timeline() {
 					'dreams/creative_quest.gif',
 				]}
 			/>
-			<TimelineEvent
-				className='timeline-container media-officer'
-				iconPrefix='fas'
-				icon='desktop'
-				title='Media Officer | Team Surrey Archery'
-				description='Being the Media Officer for Team Surrey Archery involved refreshing the website 
-							visuals, updating the website with match reports and various resources, and
-							managing the social media prescence of the team.'
-				dateRange='2018-2020'
-			/>
 			<TimelineEventMm
 				className='timeline-container intern'
 				title='Intern Programmer | Dreams'
 				description='As part of the Dreamiverse team, I implemented and maintained various UI and UX 
 							features in Dreamiverse Menus and Create UI, including some work in shader code.'
 				systems='Tooltips & Button Prompts, Imp Quests & Imp Quest UI, Main Menu UI'
-				dateRange='2018-2019'
-				hasImages='true'
+				dateRange='Jul 2018-Jun 2019'
 				images={[
 					'dreams/main_menu.gif',
 					'dreams/profile_page.jpg',
@@ -71,7 +88,7 @@ function Timeline() {
 							set of transferable skills including customer service, time management, 
 							multi-tasking, teamwork and interpersonal skills, as well as earning employee of 
 							the month 3 times during my 9 months working there."
-				dateRange='2017-2018'
+				dateRange='Oct 2017-Oct 2018'
 			/>
 		</div>
 	);
