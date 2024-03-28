@@ -61,6 +61,7 @@ function DarkMode() {
 			activeTrackColorOnActive='#6D9886'
 			inactiveThumbColor='#25342e'
 			activeThumbColor='#6D9886'
+			ariaLabel='dark mode toggle'
 			onChange={(mode) => {
 				setMode(mode);
 			}}
