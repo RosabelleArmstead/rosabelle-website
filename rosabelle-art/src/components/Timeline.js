@@ -6,6 +6,14 @@ import './Timeline.css';
 function Timeline() {
 	return (
 		<div className='timeline'>
+			<TimelineEvent
+				className='timeline-container aqe'
+				iconPrefix='fab'
+				icon='xbox'
+				title='Accessibility Quality Engineer | Xbox'
+				description='Studios Quality Accessibility Quality Engineer at Xbox, supporting accessibility across all games published by Xbox Game Studios.'
+				dateRange='Aug 2024-Present'
+			/>
 			<TimelineEventMm
 				className='timeline-container tech-prod'
 				title='Associate Technical Producer | New Project (NDA)'
@@ -15,7 +23,7 @@ function Timeline() {
 							scope and schedule milestone work to meet critical deadlines during concept 
 							development. Build a comprehensive backlog for Game Tech teams and 
 							facilitate regular backlog grooming with team members.'
-				dateRange='Oct 2022-Present'
+				dateRange='Oct 2022-Jul 2024'
 				teams='Game Graphics, UI/UX, Game Tools'
 			/>
 			<TimelineEventMm
@@ -26,7 +34,7 @@ function Timeline() {
 							accessibility awareness and training days. Arrange materials, agendas and 
 							follow-up from meetings. Deliver regular presentations to provide updates 
 							for accessibility priorities.'
-				dateRange='Mar 2022-Present'
+				dateRange='Mar 2022-Jul 2024'
 				images={['dreams/accessibility_champs.jpg']}
 			/>
 			<TimelineEventMm

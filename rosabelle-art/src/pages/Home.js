@@ -17,35 +17,36 @@ function Home() {
 					<h2 className='section-header'>hi</h2>
 					<div className='section-contents'>
 						<div className='section-item'>
-							I'm Rosabelle! I'm an Associate Technical Producer
-							with over 5 years of industry experience in
-							technical production and game systems programming.
+							I'm Rosabelle! I'm an Accessibility Quality Engineer
+							with over 6 years of industry experience in
+							accessibility, technical production and UI/UX
+							programming.
 							<br />
 							<br />
-							I'm currently an Associate Technical Producer,
-							producing a mix of single-disciplinary and
-							cross-disciplinary Game Tech teams (Game Graphics,
-							UI/UX, Game Tools) at{' '}
-							<a href='https://mediamolecule.com'>
-								Media Molecule
+							I'm currently an Accessibility Quality Engineer as
+							part of Studios Quality at{' '}
+							<a href='https://www.xbox.com/en-US/xbox-game-studios'>
+								Xbox
 							</a>
-							.
+							, supporting accessibility efforts across the Xbox
+							portfolio and providing education and guidance for
+							partner teams.
 							<br />
 							<br />
 							My particular interests are creative and innovative
-							solutions in technology, frictionless user
-							experiences and accessibility. I am actively seeking
-							out opportunities to expand my knowledge and
-							advocating for accessibility in my day-to-day work.
-							I work closely with the rest of the{' '}
-							<a href='https://x.com/mediamolecule/status/1659233464657272833?s=20'>
-								Mm Accessibility Champions
+							solutions in technology, accessibility, and
+							frictionless user experiences. I am actively seeking
+							out opportunities to expand my knowledge, and now
+							work in a dedicated accessibility role full-time at
+							Xbox. In my time at my previous studio, Media
+							Molecule, I started the{' '}
+							<a href='https://x.com/mediamolecule/status/1659233464657272833'>
+								Accessibility Champions Program
 							</a>{' '}
-							to do what we can to embed accessibility as a
-							frontline consideration throughout the studio, with
-							the hope that we can fly the flag for a baseline
-							expectation of knowledge and advocacy for our
-							Molecules.
+							in the hope of channelling studio-wide passion for
+							accessible games into action, and embedding
+							accessibility as a core pillar for their future
+							projects.
 							<br />
 							<br />
 							This website has a little bit of everything about me
