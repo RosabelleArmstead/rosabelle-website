@@ -1,0 +1,19 @@
+.projects-separator {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle {
+    display: flex;
+    padding: 0 1em 0 1em;
+}
+
+.circle span {
+    display: flex;
+    width: 25vw;
+    height: 4px;
+    background-color: var(--darkmode-light);
+    border-radius: 2px;
+}

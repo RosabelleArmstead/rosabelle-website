@@ -10,8 +10,8 @@ function Timeline() {
 				className='timeline-container aqe'
 				iconPrefix='fab'
 				icon='xbox'
-				title='Accessibility Quality Engineer | Xbox'
-				description='Studios Quality Accessibility Quality Engineer at Xbox, supporting accessibility across all games published by Xbox Game Studios.'
+				title='Accessibility Quality Engineer | XBOX'
+				description='Accessibility test strategy, accessibility consultation, and accessibility compliance support for studios. Subject matter expertise in CVAA compliance, internal requirements aligned with WCAG, and internal photosensitivity policy. Manage relationships with studios and cross-functional teams to align priorities and drive accessibility goals throughout the development cycle.  Collaborate with XBOX Research and Gaming For Everyone to manage the XBOX Studios Accessibility Program. Improve player experiences and reduce development costs through consistent program engagement, providing prioritisation tools, and early accessibility planning support.'
 				dateRange='Aug 2024-Present'
 			/>
 			<TimelineEventMm

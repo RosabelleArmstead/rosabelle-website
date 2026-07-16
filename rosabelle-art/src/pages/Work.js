@@ -13,9 +13,9 @@ function Work() {
 							Currently I'm working full-time as an Accessibility
 							Quality Engineer as part of Studios Quality at{' '}
 							<a href='https://www.xbox.com/en-US/xbox-game-studios'>
-								Xbox
+								XBOX
 							</a>
-							, supporting accessibility efforts across the Xbox
+							, supporting accessibility efforts across the XBOX
 							portfolio and providing education and guidance for
 							partner teams.
 							<br />

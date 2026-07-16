@@ -8,6 +8,7 @@ import ScrollToTop from './components/ScrollToTop';
 
 // Import pages
 import Home from './pages/Home';
+import Gameography from './pages/Gameography';
 import Work from './pages/Work';
 import Art from './pages/Art';
 import Hobbies from './pages/Hobbies';
@@ -29,19 +30,28 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faFileLines } from '@fortawesome/free-regular-svg-icons';
 import { faPepperHot } from '@fortawesome/free-solid-svg-icons';
 import { faDesktop } from '@fortawesome/free-solid-svg-icons';
+import { faArrowsTurnRight } from '@fortawesome/free-solid-svg-icons';
+import { faArrowsRotate } from '@fortawesome/free-solid-svg-icons';
+import { faCheck } from '@fortawesome/free-solid-svg-icons';
+import { faBan } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
 	fab,
 	faXmark,
 	faBars,
 	faHouseChimney,
+	faGamepad,
 	faBriefcase,
 	faPalette,
 	faGamepad,
 	faEnvelope,
 	faFileLines,
 	faPepperHot,
-	faDesktop
+	faDesktop,
+	faArrowsTurnRight,
+	faArrowsRotate,
+	faCheck,
+	faBan
 );
 
 function App() {
@@ -54,6 +64,11 @@ function App() {
 					path='/'
 					exact
 					element={<Home />}
+				/>
+				<Route
+					path='/gameography'
+					exact
+					element={<Gameography />}
 				/>
 				<Route
 					path='/work'

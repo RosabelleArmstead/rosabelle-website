@@ -8,6 +8,59 @@ function Gallery() {
 			<div className='gallery-wrapper'>
 				<ul className='gallery-items'>
 					<GalleryItem
+						src='AlienEarth.png'
+						title='Alien: Earth'
+						label='Procreate'
+						desc='One of my favourite shots from Alien: Earth.'
+						date='Oct 2025'
+					/>
+					<GalleryItem
+						src='Horse.jpg'
+						title='Horse'
+						label='Graphite Pencils'
+						desc="It's a horse!"
+						date='Aug 2025'
+					/>
+					<GalleryItem
+						src='Bird.jpg'
+						title='Bird'
+						label='Watercolour Pencils'
+						desc='A watercolour bird drawn while experimenting with some other media outside my usuals.'
+						date='Aug 2025'
+					/>
+				</ul>
+				<ul className='gallery-items'>
+					<GalleryItem
+						src='Portrait2.jpg'
+						title='Portrait II'
+						label='Graphite Pencils'
+						desc='A portrait drawn during a creative day in a cafe with friends. Image reference from free online resource, line-of-action.com.'
+						date='May 2025'
+					/>
+					<GalleryItem
+						src='Portrait.jpg'
+						title='Portrait I'
+						label='Graphite Pencils'
+						desc='A portrait drawn during a creative day in a cafe with friends. Image reference from free online resource, line-of-action.com.'
+						date='May 2025'
+					/>
+					<GalleryItem
+						src='Caitlyn.jpg'
+						title='Caitlyn'
+						label='Graphite Pencils'
+						desc='A small sketch of Caitlyn Kiramman from Arcane Season 2.'
+						date='Dec 2024'
+					/>
+					<GalleryItem
+						src='Cayde-6.jpg'
+						title='Cayde-6'
+						label='Ink Pen'
+						desc='Cayde-6 scribble while hanging out with some friends in Discord.'
+						date='Dec 2023'
+					/>
+				</ul>
+				<ul className='gallery-items'>
+					<GalleryItem
 						src='LifeDrawing4.png'
 						title='Life Drawing (IV)'
 						label='Procreate'

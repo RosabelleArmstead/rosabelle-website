@@ -67,6 +67,20 @@ function Navbar() {
 							</li>
 							<li className='nav-item'>
 								<Link
+									to='/gameography'
+									className='nav-links'
+									onClick={closeSidebar}
+								>
+									gameography
+									<FontAwesomeIcon
+										className='nav-icon'
+										icon='gamepad'
+										fixedWidth
+									/>
+								</Link>
+							</li>
+							<li className='nav-item'>
+								<Link
 									to='/work'
 									className='nav-links'
 									onClick={closeSidebar}

@@ -11,26 +11,27 @@ function Home() {
 						<img
 							className='profile-image'
 							src='images/rosabelle.jpg'
-							alt='Rosabelle Armstead hugging a donut pillow.'
+							alt='Rosabelle Armstead'
 						/>
 					</div>
 					<h2 className='section-header'>hi</h2>
 					<div className='section-contents'>
 						<div className='section-item'>
-							I'm Rosabelle! I'm an Accessibility Quality Engineer
-							with over 6 years of industry experience in
-							accessibility, technical production and UI/UX
-							programming.
+							I'm Rosabelle! I'm a game developer with over 8
+							years of industry experience in accessibility,
+							program management, technical production and
+							full-stack programming.
 							<br />
 							<br />
 							I'm currently an Accessibility Quality Engineer as
 							part of Studios Quality at{' '}
 							<a href='https://www.xbox.com/en-US/xbox-game-studios'>
-								Xbox
+								XBOX
 							</a>
-							, supporting accessibility efforts across the Xbox
-							portfolio and providing education and guidance for
-							partner teams.
+							, supporting accessibility efforts across the XBOX
+							portfolio (including ABK, Zenimax, and publishing)
+							and providing education and guidance for partner
+							teams.
 							<br />
 							<br />
 							My particular interests are creative and innovative
@@ -38,7 +39,7 @@ function Home() {
 							frictionless user experiences. I am actively seeking
 							out opportunities to expand my knowledge, and now
 							work in a dedicated accessibility role full-time at
-							Xbox. In my time at my previous studio, Media
+							XBOX. In my time at my previous studio, Media
 							Molecule, I started the{' '}
 							<a href='https://x.com/mediamolecule/status/1659233464657272833'>
 								Accessibility Champions Program
@@ -88,12 +89,11 @@ function Home() {
 							as a programmer, primarily working with the UI/UX
 							team implementing and maintaining large scale UI/UX
 							systems for the Dreamiverse. During my placement
-							year I played a key role in the development of our
-							latest project,{' '}
+							year I played a key role in the development of{' '}
 							<a href='https://www.playstation.com/en-gb/games/dreams-ps4/'>
 								Dreams
-							</a>
-							, for the PlayStation 4.
+							</a>{' '}
+							for the PlayStation 4.
 						</div>
 					</div>
 				</div>
