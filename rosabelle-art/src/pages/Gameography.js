@@ -43,13 +43,6 @@ function Gameography() {
 							<div className='project-container'>
 								<img
 									className='project-img'
-									src='images/work/xbox/campaignevolved.jpg'
-									alt='Halo: Campaign Evolved'
-								/>
-							</div>
-							<div className='project-container'>
-								<img
-									className='project-img'
 									src='images/work/xbox/spyro.webp'
 									alt='Spyro: A Realm Beyond'
 								/>
@@ -115,6 +108,13 @@ function Gameography() {
 									alt='Overwatch'
 								/>
 							</div>
+							<div className='project-container'>
+								<img
+									className='project-img'
+									src='images/work/xbox/wow.webp'
+									alt='World of Warcraft'
+								/>
+							</div>
 						</div>
 					</div>
 					<ProjSeparator />
@@ -128,6 +128,13 @@ function Gameography() {
 							</div>
 						</div>
 						<div className='project-list'>
+							<div className='project-container'>
+								<img
+									className='project-img'
+									src='images/work/xbox/campaignevolved.jpg'
+									alt='Halo: Campaign Evolved'
+								/>
+							</div>
 							<div className='project-container'>
 								<img
 									className='project-img'
